@@ -18,6 +18,8 @@ requirements:
     - python >=3.6,<3.7
     - pip
     - pytest-runner
+    - wheel >=0.31.0
+    - twine >=1.11.0
   run:
     - python >=3.6,<3.7
     - setuptools
