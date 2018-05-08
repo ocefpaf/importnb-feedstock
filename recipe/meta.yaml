@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: importnb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/importnb/importnb-{{ version }}.tar.gz
-  sha256: a31e489a324a83d825ee72a06db8916711e67c234dba7ad57e3159bb39ec71fb
+  sha256: 9c38283ce4664ec105e78f068abb0e51d9ed165a2ddf3191b0d14a4888375ee6
 
 build:
   number: 0
@@ -18,6 +18,8 @@ requirements:
     - python >=3.6,<3.7
     - pip
     - pytest-runner
+    - wheel >=0.31.0
+    - twine >=1.11.0
   run:
     - python >=3.6,<3.7
     - setuptools
