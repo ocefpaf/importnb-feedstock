@@ -1,4 +1,4 @@
-{% set version = "0.2.8" %}
+{% set version = "0.2.9" %}
 
 package:
   name: importnb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/importnb/importnb-{{ version }}.tar.gz
-  sha256: 6ddf67088f5cedd1b43694d515d695ad84a97cb08e1f605933f95318be96172f
+  sha256: 755682692932fa5e925626f8cfd9370742fcc52a47c59e98af40b91f8428b6a3
 
 build:
   number: 0
