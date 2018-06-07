@@ -22,6 +22,7 @@ requirements:
     - twine >=1.11.0
   run:
     - python >=3.6,<3.7
+    - importlib
     - setuptools
     - dataclasses
     - nbconvert
