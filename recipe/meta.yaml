@@ -15,17 +15,18 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<3.7
+    - python >=3
     - pip
     - pytest-runner
     - wheel >=0.31.0
     - twine >=1.11.0
   run:
-    - python >=3.6,<3.7
-    - importlib
+    - python >=3
     - setuptools
     - dataclasses
     - nbconvert
+    # importlib_resources will be [not py>36] and this will be arch again :-(
+    - importlib_resources
 
 test:
   imports:
